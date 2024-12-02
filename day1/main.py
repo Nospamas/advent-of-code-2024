@@ -1,7 +1,5 @@
-import os
 from collections import Counter
 
-print(os.getcwd())
 file = open("day1/input.txt", "r")
 lines = file.read().splitlines()
 # coerce to list so that we can iterate over it multiple times
